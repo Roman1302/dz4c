@@ -2,8 +2,8 @@
 и возводит число A в натуральную степень B.
 3, 5 -> 243 (3⁵)
 2, 4 -> 16 */
-int result = 1;
-int Method(int number, int degree)
+
+int Method(int number, int degree, int result = 1)
 {
     for (int i = 0; i < degree; i++)
     {
